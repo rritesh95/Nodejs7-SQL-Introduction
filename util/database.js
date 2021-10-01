@@ -8,4 +8,4 @@ const pool = mysql.createPool({
 });
 
 module.exports = pool.promise();
-//promise() will allows us to works with promise when working with connections
+//promise() will allow us to work with promise when connecting to database
